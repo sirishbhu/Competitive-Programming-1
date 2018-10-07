@@ -16,6 +16,6 @@ int main()
 	total=N*(N+1)/2;
 	for(int i=0;i<N-1;i++)
 	    total-=arr[i];
-	cout<<"\nTHE MISING NUMBER IS :"<<total;
+	cout<<"\nTHE MISSING NUMBER IS :"<<total;
 	return 0;
 }
